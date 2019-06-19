@@ -6,7 +6,10 @@
   <body>
     <% time = Time.new %>
     <h1>
-      The date is <%= time.wday
+      The date is 
+      <%= 
+      time.wday + ", " + time.month + " " + time.day + ", " + time.year
+      %>
     </h1>
   </body>
 </html>
